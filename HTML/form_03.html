@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+  <h1>Student rejistration</h1>
+<br><br>
+  <!--  <First Name>-->
+  <div>
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" id="fname">
+    <br><br>
+  </div>
+
+<!--  <Last Name>-->
+  <div>
+  <label for="lname">Last Name</label>
+    <br>
+  <input type="text" id="lname">
+    <br><br>
+  </div>
+
+<!--  <address-->
+  <div>
+  <label for="address">Address</label>
+    <br>
+    <textarea id="address" rows="5" cols="50"></textarea>
+    <br><br>
+  </div>
+
+
+<!--  <program>-->
+  <div>
+  <label for="select">Select The Programe</label>
+    <br>
+  <select id="select" name="program">
+
+    <optgroup label="Backend Dev">
+      <option>Java</option>
+      <option>Python</option>
+      <option>C</option>
+    </optgroup>
+
+    <optgroup label="Frontend Dev">
+      <option>Java</option>
+      <option>Python</option>
+      <option>C</option>
+      <option>HTML</option>
+      <option>Java Script</option>
+      <option>C++</option>
+      <option>C#</option>
+    </optgroup>
+  </select>
+  </div>
+  <br>
+
+<div>
+  <label>Select Gender</label>
+  <br>
+  <input type="radio" id="male" name="gender"><label>Male</label>
+  <br>
+  <input type="radio" id="female" name="gender"><label>Female</label>
+  <br>
+  <input type="radio" id="unknown" name="gender"><label>Unknown</label>
+</div>
+<br>
+
+<div>
+  <label for="browser">Choose your browser from the list:</label>
+  <br>
+  <input list="browsers" name="browser" id="browser">
+
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+<br><br>
+    <button type="submit">Submit!</button>
+    <button type="update">update!</button>
+    <button type="reset">Reset!</button>
+  </div>
+
+
+
+</form>
+
+</body>
+</html>

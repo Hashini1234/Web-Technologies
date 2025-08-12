@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--  (ekama element ekakata style godak dila mokdd hariytm apply kara ganne kyl balana ekata kiyanw CSS CASCADE kiyala)-->
+<!--  ( ehema prashnayak awam eka saralaw wisada gann SPECIFICITY CALCULATION kiyala kiynw)-->
+  <style>
+     h1 {  /*(0,0,0,1= h1 selector eke watinakama)*/
+     color: red;
+    }
+    *{ /*(0,0,0,0= * selector eke watinakama)*/
+      color: blue;
+    }
+    .myclass{ /*(0,0,1,0= myclass selector eke watinakama)*/
+      color: green;
+    }
+
+  </style>
+
+
+</head>
+<body>
+<h1 id="myheding" class="myclass">Hello Css</h1>
+<!--/*(mekata apply wenne green color eka.-->
+<!--mokada wadim agayak thiyen selector eka wenne myclass eka)*/-->
+
+</body>
+</html>

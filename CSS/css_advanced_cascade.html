@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    h1{ /* (0,0,0,1= h1 selector eke watinakama)*/
+      color: red;
+    }
+    section > h1 { /* (0,0,0,1 + 0,0,0,0 + 0,0,0,1 = 0,0,0,2)*/
+      color: green;
+    }
+
+    body > section > h1 { /* (0,0,0,1 + 0,0,0,0 + 0,0,0,1 + 0,0,0,0 + 0,0,0,1 = 0,0,0,3)*/
+      color: mediumpurple;
+    }
+  </style>
+</head>
+<body>
+<section>
+  <h1>Hello</h1>
+</section>
+</body>
+</html>
